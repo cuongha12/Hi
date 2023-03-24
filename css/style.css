@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+* {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+body {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fdc843;
+  background-image: linear-gradient(
+    90deg,
+    rgba(250, 189, 67, 1) 0%,
+    rgba(254, 222, 104, 1) 300%
+  );
+}
+.card {
+  background: url("https://dl.dropboxusercontent.com/s/aj7kuc4ldcioq5l/stars2x.png")
+    no-repeat 50% 15px #fff;
+  background-size: 90%;
+  margin: 0 auto;
+  border-radius: 13px;
+  width: 300px;
+}
+.card h5 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.card p {
+  color: #b8b8b8;
+  letter-spacing: 0.02em;
+}
+.card a {
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.06em;
+}
+.card-img-top {
+  height: 180px;
+  width: auto;
+  transition: all 0.5s ease;
+}
+.card-img-top:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.btn-gradient {
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 194, 48, 1) 0%,
+    rgba(255, 124, 0, 1) 100%
+  );
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
+  border-radius: 50px;
+  transition: all 0.5s ease;
+}
+.btn-gradient:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.btn-gradient img {
+  width: 31px;
+  transition: all 0.5s ease;
+}
+.btn-gradient:hover img {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  bottom: 88%;
+}
+.shadow-md {
+  box-shadow: 0 0 3rem rgba(0, 0, 0, 0.1) !important;
+}
+.shadow-orange {
+  box-shadow: 0 0.5rem 1rem rgba(251, 128, 9, 0.25);
+  position: relative;
+  z-index: 9;
+}
+.balloons {
+  position: absolute;
+  bottom: 90%;
+  right: -1.2%;
+  z-index: -1;
+}
+.threeD {
+  background: rgba(255, 255, 255, 0.5);
+  height: 50px;
+  width: 80%;
+  margin: auto;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 30%);
+  z-index: -1;
+  position: absolute;
+  border-radius: 13px;
+  box-shadow: 0 0.5rem 1rem rgba(251, 128, 9, 0.25) !important;
+}
